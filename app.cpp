@@ -14,15 +14,26 @@
 
 int main()
 {
-    int price = 100;
-    int tax = 15;
+    // ================================================
 
-    std::cout << "Price before tax: " << price;
-    std::cout << "\nPrice after tax: " << price + tax;
+    // int price = 100;
+    // int tax = 15;
 
-    price = 115;
+    // std::cout << "Price before tax: " << price;
+    // std::cout << "\nPrice after tax: " << price + tax;
 
-    std::cout << "\nNew price is: " << price;
+    // price = 115;
 
-    return 0;
+    // std::cout << "\nNew price is: " << price;
+
+    // ================================================
+
+    // Multiple variables with same value
+
+    // int n1, n2, n3;
+
+    // n1 = n2 = n3 = 15;
+    // std::cout << n1 + n2 + n3;
+
+    // return 0;
 }
