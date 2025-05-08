@@ -11,29 +11,27 @@
 */
 
 #include <iostream>
+using std::cout;
 
 int main()
 {
-    // ================================================
+    int age;
 
-    // int price = 100;
-    // int tax = 15;
+    cout << "========================\n"
+            "==== Age Calculator ====\n"
+            "========================\n\n";
+    cout << "Insert your age: ";
+    std::cin >> age;
 
-    // std::cout << "Price before tax: " << price;
-    // std::cout << "\nPrice after tax: " << price + tax;
+    int ageInDays = age * 365;
+    int ageInHrs = ageInDays * 24;
+    int ageInMins = ageInHrs * 60;
+    int ageInSecs = ageInMins * 60;
 
-    // price = 115;
+    cout << "\nAge in days: " << ageInDays << " Days\n";
+    cout << "Age in hours: " << ageInHrs << " Hours\n";
+    cout << "Age in minutes: " << ageInMins << " Minutes\n";
+    cout << "Age in seconds: " << ageInSecs << " Seconds";
 
-    // std::cout << "\nNew price is: " << price;
-
-    // ================================================
-
-    // Multiple variables with same value
-
-    // int n1, n2, n3;
-
-    // n1 = n2 = n3 = 15;
-    // std::cout << n1 + n2 + n3;
-
-    // return 0;
+    return 0;
 }
