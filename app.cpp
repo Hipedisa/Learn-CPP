@@ -1,39 +1,34 @@
+#include <iostream>
+using std::cout;
+
 /*
-=== Iostream Header File Content ===
--- cout
--- cin
--- cerr
--- clog
--- wcout
--- wcin
--- wcerr
--- wclog
+===============================================
+  Backslash allows to type special characters
+that cannot be typed under normal circumstances
+===============================================
+-- \n New line
+-- \\ Prints backslas
+-- \' Prints single quote
+-- \" Prints double quote
+-- \t Prints a tab
+-- \r Makes cursor at start of sentence and types the rest of sentence, overwriting the characters from the start
 */
 
-#include <iostream>
+// Floats are less precise (7 digits) but only 4 bytes
+// Doubles are more precise (15 digits) but are 8 bytes
+
+float x = 3.3f; // Must put f after float or it will be a double
+double y = 3.3;
 
 int main()
 {
-    // ================================================
+    // cout << "Line 1\n";
+    // cout << "Line 2\\\n";
+    // cout << "Line 3 \"4\"\n";
+    // cout << "Line 5\t\t6\n";
+    // cout << "Osama\rElzero";
 
-    // int price = 100;
-    // int tax = 15;
+    cout << x;
 
-    // std::cout << "Price before tax: " << price;
-    // std::cout << "\nPrice after tax: " << price + tax;
-
-    // price = 115;
-
-    // std::cout << "\nNew price is: " << price;
-
-    // ================================================
-
-    // Multiple variables with same value
-
-    // int n1, n2, n3;
-
-    // n1 = n2 = n3 = 15;
-    // std::cout << n1 + n2 + n3;
-
-    // return 0;
+    return 0;
 }
