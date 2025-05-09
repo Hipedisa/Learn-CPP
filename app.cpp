@@ -12,6 +12,7 @@
 
 #include <iostream>
 using std::cout;
+#include <windows.h>
 
 int main()
 {
@@ -33,5 +34,7 @@ int main()
     cout << "Age in minutes: " << ageInMins << " Minutes\n";
     cout << "Age in seconds: " << ageInSecs << " Seconds";
 
+    std::cin.ignore(); // Clear the leftover '\n'
+    std::cin.get();    // Makes it wait so user can read
     return 0;
 }
