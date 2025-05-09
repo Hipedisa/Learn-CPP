@@ -17,7 +17,6 @@ that cannot be typed under normal circumstances
 // Floats are less precise (7 digits) but only 4 bytes
 // Doubles are more precise (15 digits) but are 8 bytes
 
-float x = 3.3f; // Must put f after float or it will be a double
 double y = 3.3;
 
 int main()
@@ -26,7 +25,13 @@ int main()
   // cout << "Line 2\\\n";
   // cout << "Line 3 \"4\"\n";
   // cout << "Line 5\t\t6\n";
-  // cout << "Osama\rElzero";
+  // cout << "Ahmed\rHossam";
+
+  // New Line
+  // New Line2
+
+  int x = 12;
+  x = 10;
 
   cout << x;
 
