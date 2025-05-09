@@ -7,7 +7,7 @@ using std::cout;
 that cannot be typed under normal circumstances
 ===============================================
 -- \n New line
--- \\ Prints backslas
+-- \\ Prints backslash
 -- \' Prints single quote
 -- \" Prints double quote
 -- \t Prints a tab
@@ -22,13 +22,13 @@ double y = 3.3;
 
 int main()
 {
-    // cout << "Line 1\n";
-    // cout << "Line 2\\\n";
-    // cout << "Line 3 \"4\"\n";
-    // cout << "Line 5\t\t6\n";
-    // cout << "Osama\rElzero";
+  // cout << "Line 1\n";
+  // cout << "Line 2\\\n";
+  // cout << "Line 3 \"4\"\n";
+  // cout << "Line 5\t\t6\n";
+  // cout << "Osama\rElzero";
 
-    cout << x;
+  cout << x;
 
-    return 0;
+  return 0;
 }
