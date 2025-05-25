@@ -10,11 +10,10 @@ int main()
     cin >> num;
 
     if (num % 2 == 0)
-        cout << "Number is even";
+        cout << "Number is even\n";
     else
-        cout << "Number is odd";
+        cout << "Number is odd\n";
 
-    std::cin.ignore();
     system("pause");
 
     return 0;

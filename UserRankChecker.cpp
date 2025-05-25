@@ -16,25 +16,24 @@ int main()
     if (points < 500)
     {
         rank = "Cat";
-        cout << "Your rank is " << rank;
+        cout << "Your rank is " << rank << "\n";
     }
     else if (points >= 500 && points < 1000)
     {
         rank = "Cheetah";
-        cout << "Your rank is " << rank;
+        cout << "Your rank is " << rank << "\n";
     }
     else if (points >= 1000 && points < 10000)
     {
         rank = "Lion";
-        cout << "Your rank is " << rank;
+        cout << "Your rank is " << rank << "\n";
     }
     else
     {
         rank = "Dragon";
-        cout << "Your rank is " << rank;
+        cout << "Your rank is " << rank << "\n";
     }
 
-    std::cin.ignore();
     system("pause");
 
     return 0;

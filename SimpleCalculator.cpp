@@ -29,7 +29,6 @@ int main()
     else
         cout << "Please enter a valid operator\n";
 
-    std::cin.ignore();
     system("pause");
 
     return 0;

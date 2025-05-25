@@ -11,13 +11,12 @@ int main()
     cin >> a >> b >> c;
 
     if (a > b && a > c)
-        cout << a << " is the greatest number";
+        cout << a << " is the greatest number\n";
     else if (b > a && b > c)
-        cout << b << " is the greatest number";
+        cout << b << " is the greatest number\n";
     else
-        cout << c << " is the greatest number";
+        cout << c << " is the greatest number\n";
 
-    std::cin.ignore();
     system("pause");
 
     return 0;
