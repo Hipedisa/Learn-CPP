@@ -34,7 +34,9 @@ int main()
         cout << "Your rank is " << rank << "\n";
     }
 
-    system("pause");
+    cout << "Press Enter to exit...";
+    cin.ignore(); // This skips leftover newline
+    cin.get();    // This waits for Enter
 
     return 0;
 }

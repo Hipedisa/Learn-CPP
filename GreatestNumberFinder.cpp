@@ -17,7 +17,9 @@ int main()
     else
         cout << c << " is the greatest number\n";
 
-    system("pause");
+    cout << "Press Enter to exit...";
+    cin.ignore(); // This skips leftover newline
+    cin.get();    // This waits for Enter
 
     return 0;
 }
