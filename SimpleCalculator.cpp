@@ -29,5 +29,6 @@ int main()
     else
         cout << "Please enter a valid operator\n";
 
+    system("pause");
     return 0;
 }

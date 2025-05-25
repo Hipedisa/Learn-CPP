@@ -34,5 +34,6 @@ int main()
         cout << "Your rank is " << rank;
     }
 
+    system("pause");
     return 0;
 }

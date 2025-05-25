@@ -14,5 +14,6 @@ int main()
     else
         cout << "Number is odd";
 
+    system("pause");
     return 0;
 }
