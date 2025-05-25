@@ -17,6 +17,8 @@ int main()
     else
         cout << c << " is the greatest number";
 
+    std::cin.ignore();
     system("pause");
+
     return 0;
 }

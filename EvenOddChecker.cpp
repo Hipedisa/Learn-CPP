@@ -15,5 +15,7 @@ int main()
         cout << "Number is odd";
 
     system("pause");
+    std::cin.ignore();
+
     return 0;
 }

@@ -34,6 +34,8 @@ int main()
         cout << "Your rank is " << rank;
     }
 
+    std::cin.ignore();
     system("pause");
+
     return 0;
 }
